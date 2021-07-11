@@ -17,6 +17,7 @@ const settings = new enmap({
 
 client.on('ready', () => {
   console.log(`${client.user.username} is ready!`)
+  client.user.setActivity("the Tickets", { type: 'WATCHING'})
 })
 
 client.on('message', async (message) => {
