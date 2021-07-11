@@ -1,0 +1,28 @@
+{
+  "name": "tickey",
+  "version": "1.0.0",
+  "description": "A Ticket System bot for Discord!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yoshiboi18303/Tickey.git"
+  },
+  "keywords": [
+    "tickets",
+    "tickety",
+    "ticket-bot"
+  ],
+  "author": "Yoshiboi18303#4045",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yoshiboi18303/Tickey/issues"
+  },
+  "homepage": "https://github.com/Yoshiboi18303/Tickey#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "enmap": "^5.8.6"
+  }
+}
