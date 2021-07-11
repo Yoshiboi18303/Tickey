@@ -112,6 +112,7 @@ client.on('messageReactionAdd', async (messageReaction, user) => {
        await channel.send(`<@${user.id}>`, openedEmbed)
     })
   }
+  console.log(`${user.username} just reacted to something in ${messageReaction.message.guild.name}`)
 })
 
 client.login(loginToken)
