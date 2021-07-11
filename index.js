@@ -37,7 +37,7 @@ client.on('message', async (message) => {
      .setColor("BLUE")
      .setTitle("Ticket System")
      .setDescription("React with 🎟️ to open a ticket!")
-     .setFooter("Powered by Tickey")
+     .setFooter(`Powered by ${client.user.username}`)
      .setTimestamp()
     
     let sent = await channel.send(embed)
