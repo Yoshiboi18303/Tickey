@@ -1,5 +1,3 @@
-// Coded in Replit
-
 const { Client, Intents, MessageEmbed } = require('discord.js');
 const bot_intents = Intents.ALL;
 const client = new Client({
@@ -18,7 +16,7 @@ const settings = new enmap({
 })
 
 client.on('ready', () => {
-  console.log('Ticket Test BOT is ready!')
+  console.log(`${client.user.username} is ready!`)
 })
 
 client.on('message', async (message) => {
